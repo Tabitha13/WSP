@@ -1,24 +1,33 @@
 /* Project CSS 
 ============================================================
 ============================================================*/
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+#wrapper {
+    background-color:#ebebeb;
+
+}
 
 /* HEADER ============================== */
 header {
-    background-color: #959595;
-    width: 960px;
-    height: 200px;
-}
 
-header h1 {
-    color: white;
-    font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 35px 0 10px 10px;
+}
+header h1{
+    font-size: 40px;
     font-weight: bold;
-    padding-top: 140px;
-    padding-left: 150px;
 }
 
 /* ABOUT ============================== */
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 /* COMPONENTS ============================== */
