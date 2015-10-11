@@ -67,16 +67,18 @@ img{
     border:  lightgray solid 6px;
 }
 
-#comp img {
-    width: 920px;
-    margin: 10px 20px;
-}
+
 
 #feature {
     border: lightcyan solid 6px;
 }
 
 #feature img {
+    width: 920px;
+    margin: 10px 20px 10px 15px;
+}
+
+img {
     width: 920px;
     margin: 10px 20px 10px 15px;
 }
@@ -103,3 +105,21 @@ li{
 footer {
     padding-top: 30px;
 }
+
+a:link{
+    text-decoration: none;
+    padding: 5px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 5px;
+    color: #4C8FEC;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    font-size: large;
+}
+
