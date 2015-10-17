@@ -1,85 +1,43 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
-
 body {
-    font-size: 1.05em;
-    line-height: 1.25em;
-    font-family: Helvetica Neue, Helvetica, Arial;
+    margin: 10px auto;
     background-color: azure;
-    color: dimgrey;
+    font-family: arial, verdana, sans-serif;
 }
 
-a {
-
-    color: grey;
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: #ffffff;
+    height: 35px;
+    text-align: center;
+    padding-top: 15px;
+    /* Adds shadow to the bottom of the bar */
+    -webkit-box-shadow: 0px 0px 8px 0px #000000;
+    -moz-box-shadow: 0px 0px 8px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
+    /* Adds the transparent background */
+    background-color: rgba(1, 1, 1, 0.8);
+    color: rgba(1, 1, 1, 0.8);
+}
+nav a {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
     text-decoration: none;
-    font-weight: bold;
-
 }
 
-
-nav {
-
-    float: right;
-    padding: 20px;
-
+nav a:hover {
+    color: grey;
 }
 
-#menu-icon {
-
-    display: hidden;
-    width: 40px;
-    height: 40px;
-    background: #4C8FEC url(img/menu-icon.png) center;
-
+section{
+    padding: 30px;
 }
-
-
-
-ul {
-
-    list-style: none;
-
-}
-
-li {
-
-    display: inline-block;
-    float: left;
-    padding: 10px
-
-}
-
-.current {
-
-    color: cadetblue;
-
-}
-
-section {
-
-    margin: 80px auto 40px;
-    max-width: 980px;
-    position: relative;
-    padding: 20px
-
-}
-
-h1 {
-
-    font-size: 2em;
-    color: cadetblue;
-
-    margin: 20px 0 ;
-
-}
-
-p {
-    margin-bottom: 20px;
-
-}
-
 
 
 /*MEDIA QUERY*/
@@ -117,7 +75,34 @@ p {
     }
 
     nav:hover ul {
-
         display: block;
-
     }
+/*
+
+#navigation {
+position: fixed;
+top: 0;
+width: 100%;
+color: #ffffff;
+height: 35px;
+text-align: center;
+padding-top: 15px;
+/* Adds shadow to the bottom of the bar */
+    -webkit-box-shadow: 0px 0px 8px 0px #000000;
+    -moz-box-shadow: 0px 0px 8px 0px #000000;
+    box-shadow: 0px 0px 8px 0px #000000;
+    /* Adds the transparent background */
+    background-color: rgba(1, 1, 1, 0.8);
+    color: rgba(1, 1, 1, 0.8);
+}
+#navigation a {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    color: grey;
+}
