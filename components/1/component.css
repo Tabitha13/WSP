@@ -4,17 +4,19 @@
 
 body {
     font: 14px/1.4 arial;
+    width: 960px;
+    margin: 10px auto;
+}
+
+section{
+    
 }
 img{
     height: 200px;
     width: 257px;
     padding: 10px;
 }
-.imgWrap {
-    position: relative;
-    height: 200px;
-    width: 257px;
-}
+
 
 .imgDescription {
     position: absolute;
@@ -24,18 +26,20 @@ img{
     right: 0;
     background: rgba(29, 106, 154, 0.72);
     color: #fff;
-
-
     visibility: hidden;
     opacity: 0;
+    
 
-    /*remove comment if you want a gradual transition between states
-    -webkit-transition: visibility opacity 0.2s;
-    */
 }
 
-
-.imgWrap:hover .imgDescription {
+ul{
+    list-style-type: none;
+    display: inline-block;
+}
+li{
+    display: inline;
+}
+li:hover .imgDescription {
     visibility: visible;
     opacity: 1;
 }
