@@ -1,7 +1,11 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
-
+body{
+    margin: 20px auto;
+    width: 960px;
+    background-color: darkgray;
+}
 
 nav ul ul {
     display: none;

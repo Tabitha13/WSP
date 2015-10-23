@@ -6,13 +6,81 @@
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="component.css" />
 
-	
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>jQuery Slideup Menu Plugin Demo</title>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type='text/javascript' src='http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+    <script type='text/javascript' src='js/jquery.slideup.menu.1.0.js'></script>
+    <script type='text/javascript'>
+
+        $(document).ready(function(){
+            $(".top-menu").slideupmenu({slideUpSpeed: 150, slideDownSpeed: 200, ease: "easeOutQuad", stopQueue: true});
+        });
+
+    </script>
 </head>
 <body>
+<section>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim enim a tortor mattis, a mattis mauris hendrerit. Morbi scelerisque metus id commodo facilisis. Ut pellentesque nisl turpis, nec interdum sem semper nec. Etiam auctor sodales dictum. Sed nec lacus non erat viverra dictum. Duis vehicula ut risus accumsan laoreet. Ut turpis urna, consequat sit amet venenatis nec, posuere consequat tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut lobortis ex at mi molestie pretium. Integer purus enim, elementum a laoreet vel, vulputate consectetur eros.
+    </p>
+    <p>
+        Quisque pharetra odio in magna facilisis, a luctus urna accumsan. Vestibulum nunc risus, elementum sit amet malesuada quis, mattis sed lorem. Integer rhoncus tincidunt tellus, id ultrices elit faucibus aliquam. Sed eros sem, fringilla aliquet diam ac, semper tincidunt augue. Donec feugiat bibendum lacus eget placerat. Morbi pulvinar in augue non sollicitudin. Aenean interdum erat et sapien accumsan cursus. Quisque lacinia massa quis nibh convallis fringilla. Aenean tempor facilisis lacus, in scelerisque diam fermentum nec. Proin porttitor eros ut justo fringilla, quis ultricies est fermentum. Nunc eget rutrum velit. Suspendisse maximus malesuada porttitor.
+    </p>
+    <p>
+        Nullam ut commodo nulla, id vulputate mauris. Fusce mattis interdum dapibus. Suspendisse rhoncus diam lorem, ut imperdiet lacus feugiat eget. Nulla aliquet, leo sed eleifend imperdiet, erat lorem sodales augue, eu hendrerit turpis mauris lobortis felis. Fusce sit amet ipsum at quam dictum rutrum elementum eget odio. Ut non euismod quam. Mauris sit amet malesuada nibh. Nunc pretium bibendum mi, nec commodo massa accumsan non. Suspendisse scelerisque volutpat varius.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim enim a tortor mattis, a mattis mauris hendrerit. Morbi scelerisque metus id commodo facilisis. Ut pellentesque nisl turpis, nec interdum sem semper nec. Etiam auctor sodales dictum. Sed nec lacus non erat viverra dictum. Duis vehicula ut risus accumsan laoreet. Ut turpis urna, consequat sit amet venenatis nec, posuere consequat tellus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Ut lobortis ex at mi molestie pretium. Integer purus enim, elementum a laoreet vel, vulputate consectetur eros.
+    </p>
+    <p>
+        Quisque pharetra odio in magna facilisis, a luctus urna accumsan. Vestibulum nunc risus, elementum sit amet malesuada quis, mattis sed lorem. Integer rhoncus tincidunt tellus, id ultrices elit faucibus aliquam. Sed eros sem, fringilla aliquet diam ac, semper tincidunt augue. Donec feugiat bibendum lacus eget placerat. Morbi pulvinar in augue non sollicitudin. Aenean interdum erat et sapien accumsan cursus. Quisque lacinia massa quis nibh convallis fringilla. Aenean tempor facilisis lacus, in scelerisque diam fermentum nec. Proin porttitor eros ut justo fringilla, quis ultricies est fermentum. Nunc eget rutrum velit. Suspendisse maximus malesuada porttitor.
+    </p>
+    <p>
+        Nullam ut commodo nulla, id vulputate mauris. Fusce mattis interdum dapibus. Suspendisse rhoncus diam lorem, ut imperdiet lacus feugiat eget. Nulla aliquet, leo sed eleifend imperdiet, erat lorem sodales augue, eu hendrerit turpis mauris lobortis felis. Fusce sit amet ipsum at quam dictum rutrum elementum eget odio. Ut non euismod quam. Mauris sit amet malesuada nibh. Nunc pretium bibendum mi, nec commodo massa accumsan non. Suspendisse scelerisque volutpat varius.
+    </p>
+</section>
 
-	<!-- Component -->
 
-	<!-- End Component -->
-	
+<footer>
+
+<div class="top-menu">
+    <div class="top-menu-main">
+        <ul class="demo-menu">
+            <li class="first">Item 1</li>
+            <li class="">Item 2</li>
+            <li class="">Item 3</li>
+            <li class="">Item 4</li>
+            <li class="last">Item 5</li>
+        </ul>
+        <a href="#" class="menu-item-text">Hover me</a> </div>
+</div>
+
+</footer>
+
+
+
+
 </body>
+
+
+
+
+
+<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>
+
 </html>
