@@ -1,10 +1,128 @@
 /* Project CSS 
 ============================================================
 ============================================================*/
+body {
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+#wrapper {
+    background-color:#ebebeb;
+
+}
 
 /* HEADER ============================== */
+header {
+
+    padding: 35px 0 10px 10px;
+}
+header h1{
+    font-size: 40px;
+    font-weight: bold;
+
+}
 
 /* ABOUT ============================== */
 
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    color: dimgray;
+}
+
+#banner {
+    width: 959px;
+}
+
+
+ #about h3 {
+     margin-top: 10px;
+
+ }
+
+ #about p{
+     padding: 15px;
+ }
+
+
 /* COMPONENTS ============================== */
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 10px 10px 10px;
+
+}
+
+p {
+    padding: 10px;
+    color: dimgray;
+    font-size: 12px;
+}
+
+img{
+    border:  lightgray solid 6px;
+}
+
+
+
+#feature {
+    border: lightcyan solid 6px;
+}
+
+#feature img {
+    width: 920px;
+    margin: 10px 20px 10px 15px;
+}
+
+img {
+    width: 920px;
+    margin: 10px 20px 10px 15px;
+}
+
+#even {
+    background-color: lightgray;
+}
+
+#odd{
+    background-color: white;
+}
+
+ol{
+    padding: 20px 10px 10px 10px;
+    list-style-type: none;
+}
+
+li{
+    padding: 5px;
+    color: dimgray;
+    font-size: 12px;
+}
+
+footer {
+    padding-top: 30px;
+}
+
+a:link{
+    text-decoration: none;
+    padding: 5px;
+    background-color: azure;
+    margin: 10px;
+    border-radius: 5px;
+    color: #4C8FEC;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    font-size: large;
+}
+
+section{
+    padding-bottom: 10px;
+}

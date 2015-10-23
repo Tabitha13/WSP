@@ -24,6 +24,10 @@ section{
 
 
 .top-menu {
+<<<<<<< HEAD
+=======
+
+>>>>>>> gh-pages
     margin: auto;
     width: 960px;
     text-transform: uppercase;
@@ -36,7 +40,11 @@ section{
 
 .top-menu-main {
     position: relative;
+<<<<<<< HEAD
     float: left;
+=======
+    float: right;
+>>>>>>> gh-pages
     list-style: none;
     margin: 0;
 
