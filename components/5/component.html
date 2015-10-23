@@ -1,22 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WSP Component: Firstname Lastname</title>
+    <title>WSP Component: Firstname Lastname</title>
 
-	<link rel="stylesheet" type="text/css" href="../../css/reset.css" />
-	<link rel="stylesheet" type="text/css" href="component.css" />
+    <link rel="stylesheet" type="text/css" href="../../css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="component.css" />
 
-	
+
 </head>
 <body>
-<
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//https:connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+
+
 <section>
     <h1> Like Button</h1>
     <p>
-        So, I am having issues with the Facebook Like plug in. I repetitively received an error message that was from
-        the bit of code that Facebook gave me to insert into my page. I will continue to try to figure out this issue,
-        but for the time being, I went ahead and improvised and use Twitter for now.
+        Update, I have figured out that the reason I was receiving an error was because the js.src was looking for a local file, which is resolved by adding http: , however now I cannot make my code generate the page, just a link.
     </p>
+
+    <div class="fb-page" data-href="https://www.facebook.com/facebook" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div></div>
 
 </section>
 
@@ -29,6 +42,6 @@
 
 </aside>
 <!-- End Component -->
-	<script src="js/jquery-1.11.3.min.js"></script>
+<script src="js/jquery-1.11.3.min.js"></script>
 </body>
 </html>
