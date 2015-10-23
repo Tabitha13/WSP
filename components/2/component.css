@@ -1,7 +1,15 @@
 /* Component Stylesheet 
 ============================================================*/
+body{
+    margin: 20px auto;
+    width: 960px;
+    background-color: darkgray;
+}
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
 nav ul ul {
     display: none;
 }
@@ -63,4 +71,8 @@ nav ul ul li a:hover {
 }
 nav ul ul ul {
     position: absolute; left: 100%; top:0;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master

@@ -24,7 +24,10 @@ section{
 
 
 .top-menu {
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
     margin: auto;
     width: 960px;
     text-transform: uppercase;
@@ -37,7 +40,11 @@ section{
 
 .top-menu-main {
     position: relative;
+<<<<<<< HEAD
     float: right;
+=======
+    float: left;
+>>>>>>> master
     list-style: none;
     margin: 0;
 
