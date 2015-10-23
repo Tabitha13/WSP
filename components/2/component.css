@@ -6,10 +6,8 @@ body{
     background-color: darkgray;
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> master
+
 nav ul ul {
     display: none;
 }
@@ -71,8 +69,3 @@ nav ul ul li a:hover {
 }
 nav ul ul ul {
     position: absolute; left: 100%; top:0;
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> master
