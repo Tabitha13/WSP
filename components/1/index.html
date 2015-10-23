@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>target option of sliphover</title>
+        <link rel="stylesheet" href="css/main.css">
+         <style>
+    .item{
+        width:200px;
+        height:200px;
+        display: inline-block;
+        -webkit-transition: all 0.3s ease-out;
+    }
+    </style>
+    </head>
+    <body >
+    <div class="wrapper">
+    
+        <!-- demo begin -->
+        <div class="demo" id="container">
+        <ul>
+            <li>
+                <a href="#" >
+                    <img src="img/1.jpg" data-caption="<h3 style='color:yellow'>Product One</h3><hr/><p>Random Info about product or image </p>" />
+                </a>
+            </li>
+            <li>
+                <a href="#" >
+                    <img src="img/2.jpg" data-caption="<h3 style='color:yellow'>Product Two</h3><hr/><p>Random Info about product or image </p>" />
+                </a>
+            </li>
+            <li>
+                <a href="#" >
+                    <img src="img/3.jpg" data-caption="<h3 style='color:yellow'>Product Three</h3><hr/><p>Random Info about product or image </p>" />
+                </a>
+            </li>
+            <li>
+                <a href="#" >
+                    <img src="img/4.jpg" data-caption="<h3 style='color:yellow'>Product Four</h3><hr/><p>Random Info about product or image </p>" />
+                </a>
+            </li>
+
+            </ul>
+        </div>
+        <!-- demo end -->
+
+
+
+
+    </div>
+
+    
+        <script src="js/jquery-1.11.1.min.js"></script>
+        <script src="js/randomColor.js"></script>
+  <script src="js/jquery.sliphover.min.js"></script>
+
+        <script type="text/javascript">
+          $(function(){
+        
+             //call sliphover
+             $('#container').sliphover({
+                caption:'data-caption'
+             });
+        })
+        </script>
+        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46794744-6', 'auto');
+  ga('send', 'pageview');
+
+</script>
+    </body>
+</html>
